@@ -38,3 +38,28 @@ c. If you move the bottom box, the other will move as they where together with S
 d. two boxes collisioning and having a usual behaviour
 e. Created Layer1 and Layer2. The goblin has layer1 and the spike(block with 4 spikes) Layer 2 and in the Layer Collosion Matrix we unchek Layer1 with Layer2
 <img width="auto" alt="image" src="https://github.com/antoniocxv/2dphysics/assets/6523949/74c7d0fd-bf07-451b-8982-6dd4a2fcd28b">
+
+## Exercise 3
+<img width="353" alt="image" src="https://github.com/antoniocxv/2dphysics/assets/6523949/37888a4d-ba8f-47ca-b157-e9c43abc14a4">
+We have added some resources to the scenary, the appareance now is like a winter scenario with a snowy tree, and snow in different parts, and 2 barriers in the extreme to avoid the player going out the scenario
+
+## Exercise 4
+![exercise4](https://github.com/antoniocxv/2dphysics/blob/main/gifs/ejercicio4.gif)
+**Tilemaps:** I have created a tilemap with the snow in the floor and the top. Another one with a tree that is the obstacle with the tilemap collider 2d.
+**Jump on a platform:** The elevator now moves. With this movement, when the goblin collide with it, it becames son of the elevator and when it jumps, this property disappears.
+
+<img width="45%" alt="image" src="https://github.com/antoniocxv/2dphysics/assets/6523949/8f0bf611-6255-4f26-8795-3e7d7bc2807d">
+<img width="45%" alt="image" src="https://github.com/antoniocxv/2dphysics/assets/6523949/200a30c8-16ad-45f9-b749-f9592977fac9">
+
+**Manage collisions with a specific layer:** I have put a layer in the upper box, and when the goblin touch it, the collider will disappear.
+
+**From invisible to visible:** In this case, i have put a snowflake in a position, and the first time the goblin (with "Layer1") touch it, it will appear.
+
+**Picking up snowflakes:** The goblin needs to pick all the snowflakes, I have created a GameManager to control the score, with that, when the trigger is activated and the snowflake is visible, we will destroy it and increase the score. There are 1 hidden and 3 visible.
+
+
+
+
+
+
+
