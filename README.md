@@ -31,8 +31,10 @@ Now the Zombie provides the collision but the goblin cannot move it like if the 
 
 
 ## Exercise 2
-
+![exercise2](https://github.com/antoniocxv/2dphysics/blob/main/gifs/ejercicio2.gif)
 a. The rock is kinematic and you cannot pass through it
 b. The biggest platform gets you to the right if you stay there
 c. If you move the bottom box, the other will move as they where together with Spring Joint 2d
 d. two boxes collisioning and having a usual behaviour
+e. Created Layer1 and Layer2. The goblin has layer1 and the spike(block with 4 spikes) Layer 2 and in the Layer Collosion Matrix we unchek Layer1 with Layer2
+<img width="auto" alt="image" src="https://github.com/antoniocxv/2dphysics/assets/6523949/74c7d0fd-bf07-451b-8982-6dd4a2fcd28b">
