@@ -1,5 +1,5 @@
 # 2dphysics
-
+## Exercise 1
 ### Exercise 1a. Goblin and Zombie without physics
 ![exercise1a](https://github.com/antoniocxv/2dphysics/blob/main/gifs/ejercicio1a.gif)
 In this example both of them are static and do not fall although they are in height. The animation still active but I cannot move it
@@ -28,3 +28,11 @@ This is the same case as before, but now the zombie does not stay in the groud, 
 ### Exercise 1g. Goblin and Zombie with physics but Zombie is kinematic
 ![exercise1g](https://github.com/antoniocxv/2dphysics/blob/main/gifs/ejercicio1g.gif)
 Now the Zombie provides the collision but the goblin cannot move it like if the zombie had a big amount of mass.
+
+
+## Exercise 2
+
+a. The rock is kinematic and you cannot pass through it
+b. The biggest platform gets you to the right if you stay there
+c. If you move the bottom box, the other will move as they where together with Spring Joint 2d
+d. two boxes collisioning and having a usual behaviour
